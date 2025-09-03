@@ -81,11 +81,10 @@ flowchart LR
     I[Input] --> P[Prompt Template]
     P --> R[Retriever]
     R --> L[LLM / Chat Model]
-    L --> M[Memory (Optional)]
+    L --> M[Memory]
     M --> O[Output Parser]
     O --> A[Answer / Tool Call]
-    A --> O
-```
+````
 
 ## Project Implementation Flow
 
@@ -116,4 +115,6 @@ graph LR
 3. Run the notebook:
    - Open `simplellmLCEL.ipynb`
    - Follow the step-by-step implementation
+
+
 
